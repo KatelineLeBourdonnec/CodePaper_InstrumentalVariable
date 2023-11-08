@@ -34,7 +34,7 @@ setwd(directory)
 
 ##### Loading data & functions #####
 # Data
-read.table("data_long.txt",sep="")
+data_long <- read.table("data_long.txt",sep="")
 # functions
 source("predIC0.R")
 source("Wald2.R")
